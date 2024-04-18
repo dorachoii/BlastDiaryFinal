@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8655FCCB2BCFA03700579841 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8655FCCA2BCFA03700579841 /* Storyboard.storyboard */; };
+		8655FCCD2BD0ADBC00579841 /* 00_SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8655FCCC2BD0ADBC00579841 /* 00_SplashView.swift */; };
 		868F81262BCCFA28003C3CE6 /* BlastDiaryFinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F81252BCCFA28003C3CE6 /* BlastDiaryFinalApp.swift */; };
 		868F81282BCCFA28003C3CE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F81272BCCFA28003C3CE6 /* ContentView.swift */; };
 		868F812A2BCCFA29003C3CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868F81292BCCFA29003C3CE6 /* Assets.xcassets */; };
 		868F812D2BCCFA29003C3CE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868F812C2BCCFA29003C3CE6 /* Preview Assets.xcassets */; };
-		868F81372BCCFA29003C3CE6 /* BlastDiaryFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F81362BCCFA29003C3CE6 /* BlastDiaryFinalTests.swift */; };
-		868F81412BCCFA29003C3CE6 /* BlastDiaryFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F81402BCCFA29003C3CE6 /* BlastDiaryFinalUITests.swift */; };
-		868F81432BCCFA29003C3CE6 /* BlastDiaryFinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F81422BCCFA29003C3CE6 /* BlastDiaryFinalUITestsLaunchTests.swift */; };
+		868F81502BCCFA4A003C3CE6 /* 03_GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F814F2BCCFA4A003C3CE6 /* 03_GameScene.swift */; };
+		868F81602BCD022B003C3CE6 /* 01_CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F815F2BCD022B003C3CE6 /* 01_CalendarView.swift */; };
+		868F81622BCD02B2003C3CE6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F81612BCD02B2003C3CE6 /* Date+Extension.swift */; };
+		868F81632BCD0816003C3CE6 /* fireWork.sks in Resources */ = {isa = PBXBuildFile; fileRef = 868F81562BCCFAE6003C3CE6 /* fireWork.sks */; };
+		868F819D2BCD18A5003C3CE6 /* 02_DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F819C2BCD18A5003C3CE6 /* 02_DiaryView.swift */; };
+		86D99CCD2BD0B6ED00C2280E /* DiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D99CCC2BD0B6ED00C2280E /* DiaryModel.swift */; };
+		86D99D072BD13B2F00C2280E /* abc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D99D062BD13B2F00C2280E /* abc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8655FCCA2BCFA03700579841 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8655FCCC2BD0ADBC00579841 /* 00_SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 00_SplashView.swift; sourceTree = "<group>"; };
 		868F81222BCCFA28003C3CE6 /* BlastDiaryFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlastDiaryFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		868F81252BCCFA28003C3CE6 /* BlastDiaryFinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlastDiaryFinalApp.swift; sourceTree = "<group>"; };
 		868F81272BCCFA28003C3CE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		868F81292BCCFA29003C3CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		868F812C2BCCFA29003C3CE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		868F81322BCCFA29003C3CE6 /* BlastDiaryFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlastDiaryFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		868F81362BCCFA29003C3CE6 /* BlastDiaryFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlastDiaryFinalTests.swift; sourceTree = "<group>"; };
 		868F813C2BCCFA29003C3CE6 /* BlastDiaryFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlastDiaryFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		868F81402BCCFA29003C3CE6 /* BlastDiaryFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlastDiaryFinalUITests.swift; sourceTree = "<group>"; };
-		868F81422BCCFA29003C3CE6 /* BlastDiaryFinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlastDiaryFinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		868F814F2BCCFA4A003C3CE6 /* 03_GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03_GameScene.swift; sourceTree = "<group>"; };
+		868F81552BCCFAE6003C3CE6 /* bubblePop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubblePop.wav; sourceTree = "<group>"; };
+		868F81562BCCFAE6003C3CE6 /* fireWork.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fireWork.sks; sourceTree = "<group>"; };
+		868F815F2BCD022B003C3CE6 /* 01_CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01_CalendarView.swift; sourceTree = "<group>"; };
+		868F81612BCD02B2003C3CE6 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		868F819C2BCD18A5003C3CE6 /* 02_DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02_DiaryView.swift; sourceTree = "<group>"; };
+		86D99CCC2BD0B6ED00C2280E /* DiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryModel.swift; sourceTree = "<group>"; };
+		86D99D062BD13B2F00C2280E /* abc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +87,10 @@
 		868F81192BCCFA28003C3CE6 = {
 			isa = PBXGroup;
 			children = (
+				8655FCCA2BCFA03700579841 /* Storyboard.storyboard */,
+				868F81552BCCFAE6003C3CE6 /* bubblePop.wav */,
+				868F81562BCCFAE6003C3CE6 /* fireWork.sks */,
 				868F81242BCCFA28003C3CE6 /* BlastDiaryFinal */,
-				868F81352BCCFA29003C3CE6 /* BlastDiaryFinalTests */,
-				868F813F2BCCFA29003C3CE6 /* BlastDiaryFinalUITests */,
 				868F81232BCCFA28003C3CE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +110,13 @@
 			children = (
 				868F81252BCCFA28003C3CE6 /* BlastDiaryFinalApp.swift */,
 				868F81272BCCFA28003C3CE6 /* ContentView.swift */,
+				86D99D062BD13B2F00C2280E /* abc.swift */,
+				8655FCCC2BD0ADBC00579841 /* 00_SplashView.swift */,
+				868F815F2BCD022B003C3CE6 /* 01_CalendarView.swift */,
+				868F819C2BCD18A5003C3CE6 /* 02_DiaryView.swift */,
+				868F814F2BCCFA4A003C3CE6 /* 03_GameScene.swift */,
+				868F81612BCD02B2003C3CE6 /* Date+Extension.swift */,
+				86D99CCC2BD0B6ED00C2280E /* DiaryModel.swift */,
 				868F81292BCCFA29003C3CE6 /* Assets.xcassets */,
 				868F812B2BCCFA29003C3CE6 /* Preview Content */,
 			);
@@ -108,23 +129,6 @@
 				868F812C2BCCFA29003C3CE6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		868F81352BCCFA29003C3CE6 /* BlastDiaryFinalTests */ = {
-			isa = PBXGroup;
-			children = (
-				868F81362BCCFA29003C3CE6 /* BlastDiaryFinalTests.swift */,
-			);
-			path = BlastDiaryFinalTests;
-			sourceTree = "<group>";
-		};
-		868F813F2BCCFA29003C3CE6 /* BlastDiaryFinalUITests */ = {
-			isa = PBXGroup;
-			children = (
-				868F81402BCCFA29003C3CE6 /* BlastDiaryFinalUITests.swift */,
-				868F81422BCCFA29003C3CE6 /* BlastDiaryFinalUITestsLaunchTests.swift */,
-			);
-			path = BlastDiaryFinalUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868F81632BCD0816003C3CE6 /* fireWork.sks in Resources */,
+				8655FCCB2BCFA03700579841 /* Storyboard.storyboard in Resources */,
 				868F812D2BCCFA29003C3CE6 /* Preview Assets.xcassets in Resources */,
 				868F812A2BCCFA29003C3CE6 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868F81622BCD02B2003C3CE6 /* Date+Extension.swift in Sources */,
+				8655FCCD2BD0ADBC00579841 /* 00_SplashView.swift in Sources */,
+				86D99D072BD13B2F00C2280E /* abc.swift in Sources */,
+				868F81502BCCFA4A003C3CE6 /* 03_GameScene.swift in Sources */,
+				868F819D2BCD18A5003C3CE6 /* 02_DiaryView.swift in Sources */,
 				868F81282BCCFA28003C3CE6 /* ContentView.swift in Sources */,
+				868F81602BCD022B003C3CE6 /* 01_CalendarView.swift in Sources */,
+				86D99CCD2BD0B6ED00C2280E /* DiaryModel.swift in Sources */,
 				868F81262BCCFA28003C3CE6 /* BlastDiaryFinalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868F81372BCCFA29003C3CE6 /* BlastDiaryFinalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868F81432BCCFA29003C3CE6 /* BlastDiaryFinalUITestsLaunchTests.swift in Sources */,
-				868F81412BCCFA29003C3CE6 /* BlastDiaryFinalUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
